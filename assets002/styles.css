@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif;
+}
+body {
+  background-image: url(img/background.jpg);
+}
+.box {
+  width: 320px;
+  /* height: 350px; */
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 5px;
+}
+
+.box .cards hr {
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 0.5px;
+}
+
+.box .dots {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 0;
+}
+.box .dots span {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.box .text {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.box .cards .card {
+  font-size: 13px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 800;
+}
+.box .cards img {
+  width: 40px;
+  margin: 0 20px;
+}
+.box .cards .check {
+  width: 25px;
+  margin-left: 9 0px;
+}
+.box .cards .master {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.box .next {
+  background-color: #598bdd;
+  display: flex;
+  color: white;
+  height: 45px;
+  font-size: 12px;
+  font-weight: 800;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 5px 5px;
+}
+.box .next img {
+  width: 18px;
+  margin-left: 5px;
+}
