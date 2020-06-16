@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", serif;
+}
+
+body {
+  background-color: #a4bed3;
+}
+
+.box {
+  width: 380px;
+  background-color: white;
+  margin: 50px auto;
+}
+.contact {
+  background-color: #6a96d8;
+  color: white;
+  display: flex;
+  height: 55px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
+  font-size: 13px;
+}
+.contact .contact-info {
+  display: flex;
+}
+.name {
+  margin-left: 10px;
+}
+.conversation {
+  padding: 0 15px;
+  display: grid;
+  grid-template-rows: 10px repeat(4, 1fr) 10px 50px;
+}
+.conversation .today {
+  margin: 10px;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.conversation .message {
+  margin: 10px;
+}
+
+.conversation .message .time {
+  font-size: 12px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.conversation .baloon {
+  background-color: rgba(0, 0, 255, 0.2);
+  max-width: 200px;
+  border-radius: 2px;
+  padding: 8px;
+  margin-top: 10px;
+  position: relative;
+}
+.conversation .baloon::before {
+  content: "";
+  border-top: 5px solid #ccccff;
+  border-left: 5px solid transparent;
+  position: absolute;
+  left: -4px;
+  top: 0;
+}
+.conversation .baloon .text {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.conversation .mark {
+  justify-self: end;
+}
+.conversation .mark .time {
+  text-align: end;
+}
+.conversation .mark .baloon {
+  background-color: #f2f2f2;
+}
+
+.conversation .four .baloon {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.conversation .four .baloon::before {
+  display: none;
+}
+.conversation .two .baloon::before {
+  display: none;
+}
+.conversation .two .baloon::after {
+  content: "";
+  border-top: 5px solid #f2f2f2;
+  border-right: 5px solid transparent;
+  position: absolute;
+  right: -4px;
+  top: 0;
+}
+
+.conversation .write {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conversation hr {
+  margin: 10px;
+  margin-bottom: 2px;
+}
+
+.conversation .write input {
+  border: none;
+  outline: none;
+  margin: 10px;
+  height: 30px;
+}
+.conversation .write .input {
+  padding: 5px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.conversation .write .button {
+  padding: 0 10px;
+  color: #6a96d8;
+  font-weight: 800;
+  font-size: 15px;
+  background-color: transparent;
+}
