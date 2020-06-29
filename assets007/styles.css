@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif;
+}
+body {
+  background-color: #f2ce97;
+}
+
+.box {
+  display: flex;
+  margin: 100px auto;
+  width: fit-content;
+}
+
+.title {
+  width: 400px;
+  background-color: #484956;
+  color: white;
+  padding-top: 40px;
+  position: relative;
+}
+.title h1 {
+  font-size: 30px;
+  margin: 20px 40px;
+  margin-bottom: 0;
+}
+.title p {
+  font-size: 30px;
+  margin: 0 40px;
+}
+.title hr {
+  border: none;
+  background-color: #e37b62;
+  height: 3px;
+  width: 60px;
+  margin: 10px 40px;
+}
+.title .profile {
+  display: flex;
+  margin: 40px;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.title .profile img {
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.title .profile p {
+  font-size: 17px;
+}
+.content {
+  width: 600px;
+  background-color: white;
+}
+.content .text {
+  padding: 40px;
+  padding-top: 60px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.content .text b {
+  font-size: 30px;
+}
+.content .down {
+  display: flex;
+  margin: 40px;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.content .down div {
+  display: flex;
+  color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+}
+.content .down div p {
+  margin-left: 5px;
+  margin-right: 18px;
+}
